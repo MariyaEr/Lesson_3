@@ -1,8 +1,9 @@
 import pytest
 
 
-@pytest.fixture(scope='session')
-def browser():
+@pytest.fixture()
+def window():
     print('браузер')
     yield
     print ('Закрываем браузер')
+

@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from selene import browser
 
+
 @pytest.fixture()
 def window():
     print('браузер')
